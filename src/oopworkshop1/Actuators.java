@@ -9,6 +9,26 @@ package oopworkshop1;
  *
  * @author sebab_000
  */
-public class Actuators {
+public class Actuators extends Devices {
+    // attribute
+    private int value;
+    
+    // constructor
+
+    public Actuators(int value) {
+        this.value = value;
+    }
+    
+    
+    // getter
+    public int getValue() {
+        return value;
+    }
+    
+    // setter
+    public void setValue(int value) {
+        this.value = value;
+    }
+    
     
 }
