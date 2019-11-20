@@ -15,7 +15,8 @@ public class Co2Censor extends Devices{
     
     //constructor
 
-    public Co2Censor(double CO2) {
+    public Co2Censor(double CO2, String s, int i) {
+        super(s, i);
         this.CO2 = CO2;
     }
     
