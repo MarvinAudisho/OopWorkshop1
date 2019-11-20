@@ -33,7 +33,11 @@ public class OopWorkshop1 {
         
         // F10
         System.out.println("123");
-        System.out.println(b1.getBuildingList());
+        
+        String str = b1.getBuildingInformation().get(b1.getUuid());
+        System.out.println(str);
+        
+        // System.out.println(b1.getBuildingList());
         System.out.println("123");
         
         // F11 + F12
