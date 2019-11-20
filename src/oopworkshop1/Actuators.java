@@ -15,7 +15,8 @@ public class Actuators extends Devices {
     
     // constructor
 
-    public Actuators(int value) {
+    public Actuators(int value, String s, int i) {
+        super(s, i);
         this.value = value;
     }
     

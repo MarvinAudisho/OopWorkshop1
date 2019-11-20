@@ -44,7 +44,7 @@ public class Buildings {
     
     public void removeDevice(Devices d) {
         for (Devices bd : buildingDevices) {
-            if (d.getId == bd.getId) {
+            if (d.getId() == bd.getId()) {
             buildingList.remove(bd);
             }
         }
@@ -52,6 +52,10 @@ public class Buildings {
     
     public ArrayList<Buildings> getBuildingList() {
         return buildingList;
+    }
+    
+    public ArrayList<Devices> getDeviceList() {
+        return buildingDevices;
     }
     
 }

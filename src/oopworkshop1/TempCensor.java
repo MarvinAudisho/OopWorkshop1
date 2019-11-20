@@ -15,7 +15,8 @@ public class TempCensor extends Devices{
     
     // constructor
 
-    public TempCensor(double temp) {
+    public TempCensor(double temp, String s, int i) {
+        super(s, i);
         this.temp = temp;
     }
     
