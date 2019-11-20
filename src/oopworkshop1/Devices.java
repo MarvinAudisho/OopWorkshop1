@@ -11,4 +11,16 @@ package oopworkshop1;
  */
 public class Devices {
     
+    //Attributes
+    private int id;
+    private String location;
+
+    public int getId() {
+        return id;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
 }
