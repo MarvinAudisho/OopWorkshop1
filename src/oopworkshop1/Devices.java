@@ -5,6 +5,9 @@
  */
 package oopworkshop1;
 
+import java.util.Map;
+import java.util.UUID;
+
 /**
  *
  * @author sebab_000
@@ -36,5 +39,4 @@ public class Devices {
     public String toString() {
         return "Device Id: " + this.id + " and device location: " + this.location;
     }
-
 }
