@@ -58,4 +58,9 @@ public class Buildings {
         return buildingDevices;
     }
     
+    @Override
+    public String toString() {
+        return buildingName;
+    }
+    
 }
